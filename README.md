@@ -12,11 +12,11 @@
     o
     mkvirtualenv --python=`which python3.8` venv
 
-#### Confirmar que sea en python 3.6
-    python -V
-
 ## Paso 3: Iniciar entorno
     source venv/bin/activate
+
+#### Confirmar que sea en python 3.6
+    python -V
 
 ## Paso 4: Parar Nginx
     sudo systemctl stop nginx.service
