@@ -8,7 +8,7 @@
     o 
     virtualenv venv -p=3.6
     o
-    mkvirtualenv --python=`which python3.8` nameOfEnvironment
+    mkvirtualenv --python=`which python3.8` venv
 
 #### Confirmar que sea en python 3.6
     python -V
