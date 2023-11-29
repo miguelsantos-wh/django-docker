@@ -2,7 +2,7 @@ import requests
 
 
 def get_pokemons():
-    url = 'https://pokeapi.co/api/v2/pokemon/?limit=10'
+    url = 'https://pokeapi.co/api/v2/pokemon/?limit=2'
     response = requests.get(url)
     if response.ok:
         payload = response.json()
